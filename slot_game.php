@@ -31,8 +31,8 @@ $totalWinnings += $payout;
 }
 
 foreach ($spins as $spinResults) {
-    echo $spinResults . "<br>";
+    echo $spinResults . "\n";
 }
 
-echo "Game over. Total winnings: $totalWinnings dollars";
+echo "Game over your Total winnings: $totalWinnings dollars";
 ?>
